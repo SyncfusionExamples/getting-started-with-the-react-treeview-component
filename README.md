@@ -1,18 +1,56 @@
-
 # Getting Started with the React TreeView Component
 
-A quick start project that shows how to add React TreeView component to the React App and bind local and remote data sources. This project also includes a code snippet to enable checkboxes, node editing, drag and drop a node and select multiple nodes at a time.
+**Repository Description**  
+This repository contains a quick‑start React sample that demonstrates how to integrate and use the Syncfusion React TreeView component in a React application.
 
-Example: https://ej2.syncfusion.com/react/demos/#/bootstrap5/treeview/default 
+The sample illustrates how to bind both local and remote data sources to the TreeView. It also includes examples for enabling advanced interaction features such as checkboxes, node editing, drag‑and‑drop, and multi‑node selection.
 
-Documentation: https://ej2.syncfusion.com/react/documentation/treeview/getting-started/
+## Project Overview
+The purpose of this project is to help developers understand the setup and core capabilities of the Syncfusion React TreeView component. It serves as a reference implementation for displaying and managing hierarchical data structures within React applications.
 
+## Features
+- Integration of the Syncfusion React TreeView component  
+- Bind hierarchical data from local data sources  
+- Load TreeView data from remote service endpoints  
+- Enable checkbox selection for tree nodes  
+- Support for node editing and drag‑and‑drop operations  
+- Multiple node selection support  
 
-## Project prerequisites
+## Examples
+- Online demo:  
+  https://ej2.syncfusion.com/react/demos/#/bootstrap5/treeview/default
 
-Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
+## Prerequisites
+Before running this project, ensure that the following are installed:
+- NodeJS (latest version recommended)  
+- Visual Studio Code  
 
-### How to run this application?
+## Installation and Running the Application
+1. Clone the repository.
+```bash
+git clone https://github.com/SyncfusionExamples/getting-started-with-the-react-treeview-component.git
+```
+2. Open the project directory in Visual Studio Code.
+3. Install the required React dependencies using:`npm install`.
+4. Start the development server:`npm start`.
+5. Open your browser and navigate to the URL shown in the terminal to view the React TreeView component.
 
-To run this application, you need to clone the `getting-started-with-the-react-treeview-component` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `npm start` command.
+## Usage
+Run the application to interact with the TreeView. You can expand or collapse nodes, select multiple items, enable checkboxes, reorder nodes using drag‑and‑drop, and edit node text depending on the configuration.
 
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- React Introduction:
+https://ej2.syncfusion.com/react/documentation/introduction
+- React TreeView Getting Started:
+https://ej2.syncfusion.com/react/documentation/treeview/getting-started
+
+## Troubleshooting
+- Ensure NodeJS and npm are installed correctly.
+- Re‑run npm install if dependencies fail to install.
+- Restart the development server if UI changes are not reflected.
+- Check the browser console for runtime or data‑binding errors.
+
+## Support
+For detailed API references, configuration options, and advanced usage examples, refer to the Syncfusion React TreeView documentation links provided above.
